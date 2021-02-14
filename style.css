@@ -8,6 +8,9 @@
 a{
     text-decoration: none;
 }
+a:hover{
+    color: #fff;
+}
 body{
     font-family: 'Roboto', sans-serif;
     background:url("images/bg.png");
@@ -31,6 +34,10 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     margin: 0px 6px;
+    
+}
+nav ul li{
+    padding: 10px; 
 }
 nav ul li a{
     color: #fff;
